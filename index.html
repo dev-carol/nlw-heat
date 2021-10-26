@@ -17,44 +17,52 @@
     <main>
       <div class="container">
         <div class="avatar">
-            <span>
-
-                <img src="img/build.svg" alt="Selo branco Rockeseat" />
-            </span>
-          <img src="http://lorempixel.com/185/185/people/" alt="Foto pessoal" />
+          <span>
+            <img src="img/build.svg" alt="Selo branco Rockeseat" />
+          </span>
+          <img
+            id="userImage"
+            src="http://lorempixel.com/185/185/people/"
+            alt="Foto pessoal"
+          />
         </div>
-        <h1>Carol Santos</h1>
-        <a href="https://github.com/dev-carol">
-          <img src="img/github.svg" alt="ícone github" /> devcaroly</a
+        <h1 id="userName">Carol Santos</h1>
+        <a id="userLink" href="https://github.com/dev-carol" target="_blank">
+          <img src="img/github.svg" alt="ícone github" />
+          <span id="userLogin">devcaroly</span></a
         >
-
-        <p>An instructor focused on helping people start programming for web</p>
-        <ul>
-          <li>
-            <a href="https://www.youtube.com/c/RocketSeat">
-              <img src="img/youtube.svg" alt="icone youtube" target="_blank"
+        <div>
+          <p id="bioGitHub">
+            An instructor focused on helping people start programming for web
+          </p>
+        </div>
+        <ul id="socialLinks">
+          <li class="youtube">
+            <a href="https://www.youtube.com/c/RocketSeat" target="_blank">
+              <img src="img/youtube.svg" alt="icone youtube"
             /></a>
           </li>
-          <li>
-            <a href="https://pt-br.facebook.com/rocketseat/">
-              <img src="img/facebook.svg" alt="icone facebook" target="_blank"
+          <li class="facebook">
+            <a href="https://pt-br.facebook.com/rocketseat/" target="_blank">
+              <img src="img/facebook.svg" alt="icone facebook"
             /></a>
           </li>
-          <li>
-            <a href="https://instagram.com/devcaroly">
+          <li class="instagram">
+            <a href="https://instagram.com/devcaroly" target="_blank">
               <img
                 src="img/instagram.svg"
                 alt="icone instagram"
                 target="_blank"
             /></a>
           </li>
-          <li>
-            <a href="https://twitter.com/rockeseat">
-              <img src="img/twitter.svg" alt="icone twitter" target="_blank"
+          <li class="twitter">
+            <a href="https://twitter.com/rockeseat" target="_blank">
+              <img src="img/twitter.svg" alt="icone twitter"
             /></a>
           </li>
         </ul>
       </div>
     </main>
+    <script src="./script.js"></script>
   </body>
 </html>
